@@ -24,4 +24,12 @@ int main()
 	}
 	std::cout << "Reversed first number: " << reversed_a << std::endl;
 	std::cout << "Reversed second number: " << reversed_b << std::endl;
+
+	if (reversed_a > reversed_b) {
+        std::cout << "더 큰 숫자는: " << reversed_a << std::endl;
+    } 
+	else {
+        std::cout << "더 큰 숫자는: " << reversed_b << std::endl;
+    }
+	
 }
